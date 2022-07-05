@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #58a3e4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .page-head {
+  background-color: #ff7f50b9;
+}
+
+header img {
+  width: 100px;
+  float: left;
+}
+
+header h1 {
+  padding: 15px;
+  font-size:300%;
+  text-align:center;
+}
+
+header img:hover {
+  width: 125px;
+}
+
+article {
+  padding: 50px;
+}
+
+.mila1 {
+  border-radius: 10%;
+  width: 650px;
+  display: inline-block;
+}
+
+footer {
+  background-color: blueviolet;
+  padding: 50px;
+  color: antiquewhite;
+}
+
+a {
+  color: #e190ec;
+}
+
+a:hover {
+  color: blueviolet;
+  font-size: larger;
+}
+
+hr {
+  border-top: 3px solid rgb(221, 221, 14);
+}
+ 
+nav ol {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav li {
+  display:inline-block;margin-left:50px
+}
