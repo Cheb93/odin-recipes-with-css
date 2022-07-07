@@ -2,10 +2,13 @@ body {
   margin: 0;
   background-color: #58a3e4;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/index-img/fondo-principal.png);
 }
 
-header .page-head {
+header.page-head {
   background-color: #ff7f50b9;
+  margin: 0px;
+  background-size: cover;
 }
 
 header img {
@@ -24,13 +27,7 @@ header img:hover {
 }
 
 article {
-  padding: 50px;
-}
-
-.mila1 {
-  border-radius: 10%;
-  width: 650px;
-  display: inline-block;
+  padding-bottom: 300px;
 }
 
 footer {
@@ -40,12 +37,14 @@ footer {
 }
 
 a {
-  color: #e190ec;
+  color: #f53cb7e0;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 a:hover {
   color: blueviolet;
-  font-size: larger;
+  font-size: 150%;
 }
 
 hr {
@@ -61,3 +60,26 @@ nav ol {
 nav li {
   display:inline-block;margin-left:50px
 }
+
+/*Index special CSS*/
+section.index-mila {
+  float: right;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 300px;
+  background-image: url(/index-img/milanesa-hornamentada.jpg);
+  background-size: cover;
+  border-radius: 10%;
+}
+
+section.tecolotes-mila {
+  float: right;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 300px;
+  background-image: url(/index-img/alska-iluminada.jpg);
+  background-size: cover;
+  border-radius: 10%;
+}
+
+
