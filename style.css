@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #2adebd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(/index-img/fondo-principal.png);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/fondo-principal.png);
 }
 
 header.page-head {
@@ -88,7 +88,7 @@ aside {
 }
 
 aside.index-mila {
-  background-image: url(/index-img/milanesa-hornamentada.jpg);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/milanesa-hornamentada.jpg);
   background-size: cover;
   border-radius: 10%;
   flex: 35%;
@@ -96,23 +96,23 @@ aside.index-mila {
 }
 
 aside.classic-mila {
-  background-image: url(/index-img/classic-milanesa.jpg);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/classic-milanesa.jpg);
 }
 
 aside.ventana-mila {
-  background-image: url(/index-img/milanesa-en-su-ventana.jpeg);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/milanesa-en-su-ventana.jpeg);
 }
 
 aside.green-mila {
-  background-image: url(/index-img/milanesa-verde.jpg);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/milanesa-verde.jpg);
 }
 
 aside.tecolotes-alska {
-  background-image: url(/index-img/alska-iluminada.jpg);
+  background-image: url(https://cheb93.github.io/odin-recipes-with-css/index-img/alska-iluminada.jpg);
   background-position: center;
 }
 
-@media only screen and (max-width 1000px){
+@media only screen and (max-width: 1000px){
   
   article {
     display: flex;
