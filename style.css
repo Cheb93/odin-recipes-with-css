@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'otama';
-  src: url('./fonts/otama-ep-webfont.woff') format('woff');
+  src: url('https://cheb93.github.io/odin-recipes-with-css/fonts/otama-ep-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
